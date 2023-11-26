@@ -2,17 +2,18 @@
   "name": "nodejs_discord_bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Wojciech Kowalczyk",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.13.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.53.0"
+    "@discordjs/rest": "^2.2.0",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.37.65",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
   }
 }
